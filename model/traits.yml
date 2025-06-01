@@ -1,0 +1,50 @@
+domains:
+- facets:
+  - Analytical Reasoning
+  - Systems Perspective
+  - Foresight
+  - Curiosity
+  - Reflective Learning
+  - Sensemaking
+  name: Insight
+- facets:
+  - Achievement Focus
+  - Discipline
+  - Adaptable Execution
+  - Resilience
+  - Initiative
+  - Efficiency
+  name: Drive
+- facets:
+  - Empathy
+  - Social Awareness
+  - Collaboration
+  - Trust Building
+  - Inclusiveness
+  - Mentorship
+  name: Connection
+- facets:
+  - Persuasion
+  - Storytelling
+  - Confidence
+  - Energizing
+  - Negotiation
+  - Vision Casting
+  name: Influence
+- facets:
+  - Ideation
+  - Innovation
+  - Aesthetic Sensitivity
+  - Improvisation
+  - Experimentation
+  - Synthesizing
+  name: Creativity
+- facets:
+  - Responsibility
+  - Ethics
+  - Reliability
+  - Patience
+  - Organizing
+  - Safety Orientation
+  name: Stability
+version: 0.1.0

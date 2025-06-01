@@ -1,0 +1,37 @@
+item_id,stem,domain,facet,keyed_positive
+Q001,I regularly demonstrate analytical reasoning at work.,Insight,Analytical Reasoning,TRUE
+Q002,I regularly demonstrate systems perspective at work.,Insight,Systems Perspective,TRUE
+Q003,I regularly demonstrate foresight at work.,Insight,Foresight,TRUE
+Q004,I regularly demonstrate curiosity at work.,Insight,Curiosity,TRUE
+Q005,I regularly demonstrate reflective learning at work.,Insight,Reflective Learning,TRUE
+Q006,I regularly demonstrate sensemaking at work.,Insight,Sensemaking,TRUE
+Q007,I regularly demonstrate achievement focus at work.,Drive,Achievement Focus,TRUE
+Q008,I regularly demonstrate discipline at work.,Drive,Discipline,TRUE
+Q009,I regularly demonstrate adaptable execution at work.,Drive,Adaptable Execution,TRUE
+Q010,I regularly demonstrate resilience at work.,Drive,Resilience,TRUE
+Q011,I regularly demonstrate initiative at work.,Drive,Initiative,TRUE
+Q012,I regularly demonstrate efficiency at work.,Drive,Efficiency,TRUE
+Q013,I regularly demonstrate empathy at work.,Connection,Empathy,TRUE
+Q014,I regularly demonstrate social awareness at work.,Connection,Social Awareness,TRUE
+Q015,I regularly demonstrate collaboration at work.,Connection,Collaboration,TRUE
+Q016,I regularly demonstrate trust building at work.,Connection,Trust Building,TRUE
+Q017,I regularly demonstrate inclusiveness at work.,Connection,Inclusiveness,TRUE
+Q018,I regularly demonstrate mentorship at work.,Connection,Mentorship,TRUE
+Q019,I regularly demonstrate persuasion at work.,Influence,Persuasion,TRUE
+Q020,I regularly demonstrate storytelling at work.,Influence,Storytelling,TRUE
+Q021,I regularly demonstrate confidence at work.,Influence,Confidence,TRUE
+Q022,I regularly demonstrate energizing at work.,Influence,Energizing,TRUE
+Q023,I regularly demonstrate negotiation at work.,Influence,Negotiation,TRUE
+Q024,I regularly demonstrate vision casting at work.,Influence,Vision Casting,TRUE
+Q025,I regularly demonstrate ideation at work.,Creativity,Ideation,TRUE
+Q026,I regularly demonstrate innovation at work.,Creativity,Innovation,TRUE
+Q027,I regularly demonstrate aesthetic sensitivity at work.,Creativity,Aesthetic Sensitivity,TRUE
+Q028,I regularly demonstrate improvisation at work.,Creativity,Improvisation,TRUE
+Q029,I regularly demonstrate experimentation at work.,Creativity,Experimentation,TRUE
+Q030,I regularly demonstrate synthesizing at work.,Creativity,Synthesizing,TRUE
+Q031,I regularly demonstrate responsibility at work.,Stability,Responsibility,TRUE
+Q032,I regularly demonstrate ethics at work.,Stability,Ethics,TRUE
+Q033,I regularly demonstrate reliability at work.,Stability,Reliability,TRUE
+Q034,I regularly demonstrate patience at work.,Stability,Patience,TRUE
+Q035,I regularly demonstrate organizing at work.,Stability,Organizing,TRUE
+Q036,I regularly demonstrate safety orientation at work.,Stability,Safety Orientation,TRUE
