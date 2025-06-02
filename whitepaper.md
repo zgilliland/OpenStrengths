@@ -122,44 +122,51 @@ Decades of positive‑psychology research show that leveraging what people **do 
 
 ### 4.2  Facet‑by‑Facet Justification  
 
-| Domain | Facet | Why It Matters | Key Source(s) |
-|--------|-------|---------------|---------------|
-| **Insight** | Analytical Reasoning | Decision accuracy | [1](#ref1) |
-|  | Systems Perspective | Complex‑system success | [13](#ref13) |
-|  | Foresight | Future‑time orientation | [14](#ref14) |
-|  | Curiosity | Knowledge exploration | [15](#ref15) |
-|  | Reflective Learning | Metacognitive transfer | [16](#ref16) |
-|  | Sense‑Making | Narrative from data | [17](#ref17) |
-| **Creativity** | Ideation | Patent fluency | [2](#ref2) |
-|  | Innovation | Adoption‑innovation | [18](#ref18) |
-|  | Aesthetic Sensitivity | Design quality | [19](#ref19) |
-|  | Improvisation | Real‑time adaptability | [20](#ref20) |
-|  | Experimentation | Hypothesis testing | [21](#ref21) |
-|  | Synthesizing | Associative distance | [7](#ref7) |
-| **Drive** | Achievement Focus | Goal results | [22](#ref22) |
-|  | Discipline | Self‑control vs. GPA | [3](#ref3) |
-|  | Adaptable Execution | Flex vs. stress | [23](#ref23) |
-|  | Resilience | Retention | [24](#ref24) |
-|  | Initiative | Proactivity λ ≈ .62 | [25](#ref25) |
-|  | Efficiency | Throughput KPIs | [26](#ref26) |
-| **Stability** | Responsibility | ↓ CWB | [27](#ref27) |
-|  | Ethics | Honesty‑Humility | [8](#ref8) |
-|  | Reliability | On‑time delivery | [28](#ref28) |
-|  | Patience | Delay discounting | [29](#ref29) |
-|  | Organizing | Scope control | [30](#ref30) |
-|  | Safety Orientation | Accident reduction | [4](#ref4) |
-| **Connection** | Empathy | Team climate | [6](#ref6) |
-|  | Social Awareness | Theory‑of‑mind | [31](#ref31) |
-|  | Collaboration | Team orientation | [32](#ref32) |
-|  | Trust Building | Trust propensity | [33](#ref33) |
-|  | Inclusiveness | Psychological safety | [34](#ref34) |
-|  | Mentorship | Protégé growth | [35](#ref35) |
-| **Influence** | Persuasion | Attitude change | [36](#ref36) |
-|  | Storytelling | Narrative transport | [37](#ref37) |
-|  | Confidence | Core self‑eval meta | [38](#ref38) |
-|  | Energizing | Positive affect infusion | [39](#ref39) |
-|  | Negotiation | Deal quality | [40](#ref40) |
-|  | Vision Casting | Transformational leadership | [41](#ref41) |
+| Domain | Facet | Description (Plain Language) | Why It Matters | Key Source(s) |
+|--------|-------|------------------------------|----------------|---------------|
+| **Insight** |
+| Analytical Reasoning | Breaks problems into logical steps | Accurate decisions in data‑rich roles | [1](#ref1) |
+| Systems Perspective | Sees how parts influence the whole | Success on complex projects | [13](#ref13) |
+| Foresight | Anticipates future scenarios | Effective long‑range planning | [14](#ref14) |
+| Curiosity | Eager to learn new things | Drives knowledge exploration | [15](#ref15) |
+| Reflective Learning | Thinks about how they learn | Improves skill transfer | [16](#ref16) |
+| Sense‑Making | Turns ambiguity into clear narrative | Clarifies uncertainty for teams | [17](#ref17) |
+| **Creativity** |
+| Ideation | Generates many novel ideas | Fuels innovation pipelines | [2](#ref2) |
+| Innovation | Turns ideas into useful output | Predicts product launches | [18](#ref18) |
+| Aesthetic Sensitivity | Notices beauty & design nuances | Improves design quality | [19](#ref19) |
+| Improvisation | Adapts on the fly | Enables real‑time problem solving | [20](#ref20) |
+| Experimentation | Tests hypotheses quickly | Supports lean iteration | [21](#ref21) |
+| Synthesizing | Connects disparate concepts | Creates breakthrough insights | [7](#ref7) |
+| **Drive** |
+| Achievement Focus | Strives for challenging goals | Predicts higher performance | [22](#ref22) |
+| Discipline | Follows plans persistently | Reduces errors & delays | [3](#ref3) |
+| Adaptable Execution | Adjusts plans under pressure | Maintains output in change | [23](#ref23) |
+| Resilience | Bounces back after setbacks | Lowers turnover risk | [24](#ref24) |
+| Initiative | Acts without being told | Increases proactive solutions | [25](#ref25) |
+| Efficiency | Minimizes waste & downtime | Boosts throughput KPIs | [26](#ref26) |
+| **Stability** |
+| Responsibility | Owns outcomes & obligations | Cuts counter‑productive behavior | [27](#ref27) |
+| Ethics | Follows moral principles | Reduces misconduct risk | [8](#ref8) |
+| Reliability | Delivers consistently on time | Improves service quality | [28](#ref28) |
+| Patience | Waits calmly for results | Supports long‑cycle projects | [29](#ref29) |
+| Organizing | Keeps tasks & data ordered | Prevents scope creep | [30](#ref30) |
+| Safety Orientation | Prioritizes risk reduction | Lowers accidents & incidents | [4](#ref4) |
+| **Connection** |
+| Empathy | Feels others’ emotions | Builds supportive climates | [6](#ref6) |
+| Social Awareness | Reads social cues accurately | Enhances teamwork alignment | [31](#ref31) |
+| Collaboration | Cooperates toward shared goals | Raises team effectiveness | [32](#ref32) |
+| Trust Building | Earns and gives trust easily | Accelerates coordination | [33](#ref33) |
+| Inclusiveness | Welcomes diverse voices | Fuels psychological safety | [34](#ref34) |
+| Mentorship | Develops others’ talents | Increases retention & growth | [35](#ref35) |
+| **Influence** |
+| Persuasion | Moves others’ opinions | Drives change initiatives | [36](#ref36) |
+| Storytelling | Communicates via narratives | Boosts message retention | [37](#ref37) |
+| Confidence | Projects self‑assurance | Inspires follower trust | [38](#ref38) |
+| Energizing | Raises group morale | Increases collective effort | [39](#ref39) |
+| Negotiation | Reaches beneficial deals | Enhances value creation | [40](#ref40) |
+| Vision Casting | Paints compelling future | Guides strategic direction | [41](#ref41) |
+
 
 ---
 
