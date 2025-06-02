@@ -8,11 +8,11 @@
 1. [Executive Summary](#1-executive-summary)  
 2. [Introduction & Problem Statement](#2-introduction--problem-statement)  
 3. [State of the Art & Evidence Base](#3-state-of-the-art--evidence-base)  
-   * 3.1  A Tour of Existing Frameworks  
-   * 3.2  Research‑Identified Gaps  
+   * [3.1  A Tour of Existing Frameworks](#31--a-tour-of-existing-frameworks)  
+   * [3.2  Research‑Identified Gaps](#32--research-identified-gaps)  
 4. [Framework Architecture](#4-framework-architecture)  
-   * 4.1  Six‑Domain Model: Rationale & Data  
-   * 4.2  Facet‑by‑Facet Justification  
+   * [4.1  Six‑Domain Model: Rationale & Data](#41--six-domain-model-rationale--data)  
+   * [4.2  Facet‑by‑Facet Justification](#42--facet-by-facet-justification)   
 5. [Psychometric Methodology](#5-psychometric-methodology)  
 6. [Open‑Source Governance & IP Strategy](#6-open-source-governance--ip-strategy)  
 7. [Implementation Roadmap](#7-implementation-roadmap)  
