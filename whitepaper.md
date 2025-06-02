@@ -17,6 +17,12 @@
    * [4.1  Six‑Domain Model: Rationale & Data](#41--six-domain-model-rationale--data)  
    * [4.2  Facet‑by‑Facet Justification](#42--facet-by-facet-justification)      
 5. [Psychometric Methodology](#5-psychometric-methodology)  
+   * [5.1  Item Development — Writing the Questions](#51--item-development--writing-the-questions)  
+   * [5.2  Calibration Pipeline — Ensuring Accuracy](#52--calibration-pipeline--ensuring-accuracy)  
+   * [5.3  Scoring & Reporting — From Answers to Insights](#53--scoring--reporting--from-answers-to-insights)  
+   * [5.4  Anti‑Faking Shield — Keeping Results Honest](#54--anti-faking-shield--keeping-results-honest)  
+   * [5.5  Adaptive Testing (Coming Soon)](#55--adaptive-testing-coming-soon)  
+   * [Mini‑Glossary](#mini-glossary)   
 6. [Open‑Source Governance & IP Strategy](#6-open-source-governance--ip-strategy)  
 7. [Implementation Roadmap](#7-implementation-roadmap)  
 8. [Illustrative Use‑Cases](#8-illustrative-use-cases)  
@@ -190,12 +196,90 @@ Decades of positive‑psychology research show that leveraging what people **do 
 
 ---
 
-## 5 · Psychometric Methodology  
+## 5 · Psychometric Methodology  
+*(How we make sure the test is both **scientifically sound** and **fair for everyone**)*  
 
-**Item Development** → balanced keying, CEFR‑B1 readability, public IPIP check.  
-**Calibration** → Pilot‑0 EFA + α ≥ 0.75; Calibration‑1 2‑PL IRT (drop a < 0.75).  
-**Anti‑Faking** → infrequency items, latency z‑scores, forced‑choice IRT.  
-**Adaptive Testing** → BM‑CAT targeting SEM ≤ 0.30 with ~40 items.
+> **If you’re new to psychometrics:**  
+> Think of building an assessment like crafting a high‑precision thermometer.  
+> 1) You design the **scale** (what “degrees” mean).  
+> 2) You create **items** (the mercury).  
+> 3) You **calibrate** it so 37 °C in Nairobi equals 37 °C in New York.  
+> OpenStrengths follows the same logic—just measuring human strengths instead of temperature.
+
+---
+
+### 5.1  Item Development — Writing the Questions  
+
+| Step | What It Means in Plain English | Key Safeguard |
+|------|--------------------------------|---------------|
+| **Seed Pool** | Start with a *draft set* of 4–6 questions for each facet (1 per facet in v0.4). | Community peer review. |
+| **Balanced Keying** | Half the items are phrased positively (“I enjoy brainstorming”), half negatively (“I avoid new ideas”) to reduce “yes‑bias.” | Prevents mindless agree‑to‑all. |
+| **Reading Level** | Items are written at CEFR‑B1 (~8th‑grade) to be clear in translation. | Accessibility & fairness. |
+| **IP Check** | We compare each item to public‑domain banks (e.g., IPIP) to avoid copyright issues. | Open‑license compliance. |
+
+---
+
+### 5.2  Calibration Pipeline — Making Sure the “Thermometer” Reads the Same Everywhere  
+
+| Phase | Sample Size & Goal | What We Do | Outcome |
+|-------|-------------------|------------|---------|
+| **Pilot‑0** | ~300 volunteers | Run an Exploratory Factor Analysis (EFA) and Cronbach’s α. | Remove or rewrite weak items until α ≥ 0.75. |
+| **Calibration‑1** | ~2 000 users | Fit a Bayesian 2‑Parameter Logistic (2‑PL) Item Response Theory model. | Publish item difficulty (b) & discrimination (a) parameters. |
+| **Cross‑Culture DIF** | ~10 000 diverse users | Check Differential Item Functioning: “Does this item behave differently in Kenya vs. Canada?” | Flag & fix biased items. |
+
+*Plain English → **EFA** tells us if questions group together as intended; **IRT** tells us how informative each question is at different ability levels.*
+
+---
+
+### 5.3  Scoring & Reporting — Turning Answers into Insights  
+
+1. **Reverse‑score** negative items so higher numbers always mean “more of the strength.”  
+2. Calculate a **theta (θ)** score for each facet using the IRT curves (think of θ like a z‑score: 0 = average, +1 = above average).  
+3. Average θ’s within each domain to get six domain scores.  
+4. Display results as a **Top‑5 strengths profile** plus full 36‑facet radar for power users.
+
+---
+
+### 5.4  Anti‑Faking Shield — Keeping Results Honest  
+
+| Layer | Everyday Example | Threshold |
+|-------|------------------|-----------|
+| **Infrequency Items** | “I have never, ever told a lie.” (Agree = flag) | >1 improbable response |
+| **Response Latency** | Clicking 60 items in 60 sec → bot? | z‑score latency < ‑3 |
+| **Forced‑Choice Blocks** | Choose *most* & *least* like you from 4 statements (harder to fake). | Target AUC ≥ 0.85 |
+| **Consistency Index** | Compare odd vs. even items on same facet. | r < 0.30 = inconsistent |
+
+---
+
+### 5.5  Adaptive Testing (Coming Soon)  
+
+*Why ask 180 questions if we can get the same accuracy in 40?*
+
+1. Start with a medium‑difficulty item.  
+2. If you answer high, next item gets harder; if low, easier.  
+3. Stop once the **Standard Error of Measurement (SEM)** is below 0.30.  
+4. Saves time & keeps people engaged.
+
+---
+
+### Mini‑Glossary  
+
+| Term | 10‑Second Definition |
+|------|----------------------|
+| **Item** | A single question or statement you rate. |
+| **Facet** | A specific strength (e.g., Curiosity). |
+| **Domain** | A family of related facets (e.g., Insight). |
+| **Cronbach’s α** | A reliability index—how consistently items within a facet hang together (0 → 1). |
+| **EFA / CFA** | Exploratory / Confirmatory Factor Analysis—stat tests that show which items cluster. |
+| **IRT (2‑PL)** | Item Response Theory model with Difficulty (b) & Discrimination (a) parameters. |
+| **DIF** | Differential Item Functioning—an equity check across groups. |
+| **SEM** | Standard Error of Measurement—lower = more precise score. |
+
+---
+
+**Take‑away:**  
+OpenStrengths treats psychometrics like open‑source software: every line of “code” (item), every “unit test” (reliability stat), and every “security patch” (anti‑faking layer) is transparent, documented, and open for community improvement.
+
 
 ---
 
@@ -232,7 +316,7 @@ Decades of positive‑psychology research show that leveraging what people **do 
 
 ## 9 · Call to Action  
 
-1. **Fork** the repo → `github.com/openstrengths`  
+1. **Fork** the repo → `github.com/zgilliland/OpenStrengths`  
 2. **Add items** → PR with psychometric evidence  
 3. **Run a pilot** → share anonymized CSV  
 4. **Join a working group** → Item, CAT/AI, Translations  
