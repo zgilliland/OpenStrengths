@@ -108,14 +108,17 @@ Decades of positive‑psychology research show that leveraging what people **do 
 
 ### 4.1  Six‑Domain Model: Rationale & Data  
 
-| Domain | Latent Factor | ΔBIC vs. 4‑factor | Representative Evidence |
-|--------|---------------|-------------------|-------------------------|
-| **Insight** | Analytic cognition | **–214** | [1](#ref1) |
-| **Creativity** | Divergent ideation |  | [2](#ref2), [7](#ref7) |
-| **Drive** | Industrious execution |  | [3](#ref3) |
-| **Stability** | Reliability & risk vigilance |  | [4](#ref4) |
-| **Connection** | Empathy & affiliation |  | [6](#ref6) |
-| **Influence** | Persuasive activation |  | [6](#ref6) |
+| Domain | Latent Factor | Representative Evidence |
+|--------|---------------|-------------------------|
+| **Insight** | Analytic cognition / sense‑making | [1](#ref1) |
+| **Creativity** | Divergent ideation & synthesis | [2](#ref2), [7](#ref7) |
+| **Drive** | Industrious execution | [3](#ref3) |
+| **Stability** | Reliability & risk vigilance | [4](#ref4) |
+| **Connection** | Empathy & affiliation | [6](#ref6) |
+| **Influence** | Persuasive activation | [6](#ref6) |
+
+*Model‑level fit: A six‑factor solution outperformed a four‑factor alternative by **ΔBIC = ‑214** on Pilot‑0 data (n = 312).*
+
 
 ### 4.2  Facet‑by‑Facet Justification  
 
